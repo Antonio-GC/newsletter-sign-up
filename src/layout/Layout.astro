@@ -1,0 +1,36 @@
+---
+
+const { title } = Astro.props;
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="bg-[#36384D]">
+		<slot />
+	</body>
+</html>
+
+<style is:global>
+
+	html {
+		font-family: 'Roboto', sans-serif;
+		background: #13151a;
+		background-size: 224px;
+	}
+
+	
+	body{
+		height: 100vh;
+		
+	}
+	code {
+		font-family: 'Roboto', sans-serif;
+	}
+
+
+</style>
