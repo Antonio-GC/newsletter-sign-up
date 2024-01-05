@@ -4,7 +4,7 @@ function Complete() {
   return (
     <div className="bg-white p-10 rounded-xl  gap-y-3 grid max-w-96 ">
       <div>
-      <img className='w-14' src="../../public/icon-list.svg" alt="check list"/>
+      <img className='w-14' src="public/icon-list.svg" alt="check list"/>
       </div>
    <h1 className='text-4xl font-bold'>Thanks for subscribing!</h1>
    <p className='text-sm'>A confirmation email has been sent to <span className='font-bold'>ash@loremcompany.com</span>. Please open it and click the button inside to confirm your subscription.</p>
