@@ -67,7 +67,7 @@ function Card() {
             </form>
           </div>
           <div>
-            <img className="w-full" src="public/illustration-sign-up-desktop.svg" alt="ilustration" />
+            <img className="w-full" src="/illustration-sign-up-desktop.svg" alt="ilustration" />
           </div>
         </div>
       ):(
